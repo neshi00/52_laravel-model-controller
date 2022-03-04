@@ -9,7 +9,7 @@ class HomeController extends Controller {
     function index () {
         $data = Movie::all();
 
-        // dd($data);
+        dump($data);
 
 
 
